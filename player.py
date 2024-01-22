@@ -7,7 +7,7 @@ class Player:
         self.y = y
         self.rect = pygame.Rect(self.x, self.y, width, height)
         self.color = pygame.Color("brown")
-        self.player_speed = 28
+        self.player_speed = 30
         self.score = 0
 
     def move_up(self):
