@@ -6,7 +6,7 @@ class Player:
         self.x = x
         self.y = y
         self.rect = pygame.Rect(self.x, self.y, width, height)
-        self.color = pygame.Color("white")
+        self.color = pygame.Color("brown")
         self.player_speed = 28
         self.score = 0
 
